@@ -1,0 +1,82 @@
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+			click New => name TXT => Create repository
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+			git clone git@github.com:NataliQA/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”.
+			cd TXT   touch new.txt
+ 4. Добавить файл под гит.
+			git add new.txt
+ 5. Закоммитить файл.
+			git commit -m "Create file new.txt"
+ 6. Отправить файл на внешний GitHub репозиторий.
+			git push
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе 
+ (ФИО, возраст, количество домашних животных, будущая желаемая зарплата).
+ Всё написать в формате TXT.
+			cat >> new.txt
+		Fullname - Bragarnyk Natalia
+        Age - 35
+        Number of pets - 1
+        Future desired salary - 500$
+ 8. Отправить изменения на внешний репозиторий.
+			git commit -a
+			git push
+ 9. Создать файл preferences.txt
+			vim preferences.txt
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях 
+ (Любимый фильм, любимый сериал, любимая еда, любимое время года, 
+ сторона которую хотели бы посетить) в формате TXT.
+			Favorite movie - August Rush
+			Favorite series - Friends
+			Favorite food - Borsch
+			Favorite season - Spring
+			Side you would like to visit - Slovenia
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут 
+ изучены на курсе в формате TXT
+			vim skills.txt
+		Testing theory: What is testing, test documentation, types, testing methods, SDLC, STLC
+        API testing: Postman, JSON, XML, JavaScript, Autotest API
+        Web testing: Charles, Fiddler, Dev Tools, VPN
+        Mobile testing: iOS and Android guidelines, Android Studio, ADB, Sniffing of mobile traffic
+        Git Bash: Copying, creating, viewing, moving files on servers without a graphical interface
+        SQL: Create, Delete, Drop, Insert Into, Select, From, Where, Join
+        Programming language: Python, JavaScript
+ 12. Сделать коммит в одну строку.
+			git add .
+			git commit -m "add 2 new files"
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+			git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+			Add file => Create new file => Enter name bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+			Commit new file
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить 
+ баг репорт в формате TXT.
+			click on bug_report.json and click Edit this file. Print
+  ID - BR6
+  Modul - Apple
+  Summury - Missing link to "iPod" in Apple section when viewing section content
+  Steps to reproduce: 1.Open https://tehnoezh.ua/ru/ 
+	2. Click on "Apple"
+	3. Bug-Missing link to "iPod" in Apple section when viewing section content
+  Expected result: The site opens and works
+	Apple section implemented
+	All product links are present
+  Actual result: The site opens and works
+	Apple section implemented
+	Missing link to "Pod"
+  Enviroment: Google Chrome v 89.0.4389.90
+	Mozilla Firefox  v 87.0
+	Microsoft Edge v 89.0.774.63
+	Opera v 75.0.3969.93
+  Severity - Minor
+  Priority - Low
+  Assigned to - John Doe
+  Attachment: https://drive.google.com/file/d/1nuSfL033trPDobLw8vC4-0llIiJjwemL/view?usp=sharing
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+			Commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+			git fetch
+			git pull
