@@ -1,0 +1,20 @@
+  ID - BR6
+  Modul - Apple
+  Summury - Missing link to "iPod" in Apple section when viewing section content
+  Steps to reproduce: 1.Open https://tehnoezh.ua/ru/ 
+	2. Click on "Apple"
+	3. Bug-Missing link to "iPod" in Apple section when viewing section content
+  Expected result: The site opens and works
+	Apple section implemented
+	All product links are present
+  Actual result: The site opens and works
+	Apple section implemented
+	Missing link to "Pod"
+  Enviroment: Google Chrome v 89.0.4389.90
+	Mozilla Firefox  v 87.0
+	Microsoft Edge v 89.0.774.63
+	Opera v 75.0.3969.93
+  Severity - Minor
+  Priority - Low
+  Assigned to - John Doe
+  Attachment: https://drive.google.com/file/d/1nuSfL033trPDobLw8vC4-0llIiJjwemL/view?usp=sharing
